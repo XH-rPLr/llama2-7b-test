@@ -4,7 +4,7 @@ base_model: https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
 inference: false
 language:
 - en
-license: other
+license: llama2
 model_creator: Meta Llama 2
 model_name: Llama 2 7B Chat
 model_type: llama
