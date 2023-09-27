@@ -1,12 +1,18 @@
 ---
-arxiv: 2307.09288
-base_model: https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
-inference: false
 language:
 - en
 license: llama2
-model_creator: Meta Llama 2
+tags:
+- facebook
+- meta
+- pytorch
+- llama
+- llama-2
 model_name: Llama 2 7B Chat
+arxiv: 2307.09288
+base_model: meta-llama/Llama-2-7b-chat-hf
+inference: false
+model_creator: Meta Llama 2
 model_type: llama
 pipeline_tag: text-generation
 prompt_template: '[INST] <<SYS>>
@@ -24,12 +30,6 @@ prompt_template: '[INST] <<SYS>>
 
   '
 quantized_by: TheBloke
-tags:
-- facebook
-- meta
-- pytorch
-- llama
-- llama-2
 ---
 
 <!-- header start -->
